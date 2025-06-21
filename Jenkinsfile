@@ -21,10 +21,10 @@ pipeline {
             }
             steps {
                 sh """
-                echo "Building Artifact from Develop branch"
+                echo "Building Artifact from test branch"
                 """
                 sh """
-                echo "Deploying Code from Develop branch"
+                echo "Deploying Code from test branch"
                 """
            }
         }
